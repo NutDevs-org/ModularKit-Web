@@ -1,0 +1,48 @@
+@import '_colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@0ac23ca/css/all.css');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: clamp(12px, 3vw, 16px);
+  color: $text-400;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Fira Sans", sans-serif;
+  background: $bg-400;
+}
+
+h1 {
+  letter-spacing: 2px;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 900;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:not(.sonikalize-proj-btn) {
+    text-decoration: underline dotted;
+
+    &:hover {
+      text-decoration: underline;
+      transition: underline 0.3s ease-in-out;
+    }
+
+    &:focus {
+      padding: 2px;
+      margin: 2px 0;
+      border-radius: 4px;
+      box-shadow: 0 0 0 4px $bg-700;
+    }
+  }
+}

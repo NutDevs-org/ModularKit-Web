@@ -1,5 +1,11 @@
 @import "src/ui/main/colors";
 
+@keyframes Spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .main-header {
   background-color: $bg-600;
   display: flex;

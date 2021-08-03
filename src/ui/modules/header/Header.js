@@ -1,13 +1,13 @@
 import React from 'react';
 import './_Header.scss'
 import ModularKitLogo from "../logo/ModularKitLogo";
-import GithubBtn from "../gui/buttons/GithubBtn";
+import {PrimaryButton} from "@fluentui/react";
 
 const Header = () => {
     return (
         <header className="main-header">
                 <ModularKitLogo />
-                <GithubBtn />
+                <PrimaryButton text={"View On Github !"} onClick={() => window.open("https://github.com/NutDevs-org/ModularKit", "_blank")} />
         </header>
     );
 };

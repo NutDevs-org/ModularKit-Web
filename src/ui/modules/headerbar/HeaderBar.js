@@ -1,13 +1,13 @@
 import React from 'react';
 import './Headerbar.scss'
 import ModularKitLogo from "../logo/ModularKitLogo";
-import GIthubBtn from "../gui/buttons/GIthubBtn";
+import GithubBtn from "../gui/buttons/GithubBtn";
 
 const HeaderBar = () => {
     return (
         <header className="main-header">
                 <ModularKitLogo />
-                <GIthubBtn />
+                <GithubBtn />
         </header>
     );
 };

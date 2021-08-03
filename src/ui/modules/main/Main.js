@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './_Main.scss';
 import Readme from "../readme/Readme";
 
 const Main = () => {
+    const [loaded, setLoaded] = useState(false);
+
+    useEffect(() => {
+        Readme(() => {
+            setLoaded(true);
+        });
+    });
+
     return (
         <main class="main-content">
             <div class="main-content-container">
@@ -13,7 +21,6 @@ const Main = () => {
                        target="_blank">README.md</a>
                 </header>
                 <div class="file-content">
-                    <Readme/>
                 </div>
             </div>
         </main>

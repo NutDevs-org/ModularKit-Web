@@ -1,0 +1,102 @@
+@import "src/ui/main/colors";
+
+code.hljs {
+  padding: 20px;
+  font-size: 0.8em;
+  font-weight: 500;
+  display: inline-block;
+  background-color: $bg-500;
+
+  width: clamp(55%, 1200px, calc(100% - 50px));
+  overflow-x: scroll;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+
+    &-track {
+      background: $bg-400;
+    }
+
+    &-thumb {
+      background: $bg-700;
+    }
+  }
+}
+
+.hljs {
+  font-family: "Fira Code", monospace;
+
+  &-comment {
+    color: #93a1a1;
+  }
+
+  &-punctuation,
+  &-tag {
+    color: #444a;
+  }
+
+  &-attribute,
+  &-doctag,
+  &-keyword,
+  &-meta &-keyword,
+  &-name,
+  &-selector-tag {
+    color: #54a700;
+  }
+
+  &-tag &-attr,
+  &-tag &-name {
+    color: #444;
+  }
+
+  &-deletion,
+  &-number,
+  &-quote,
+  &-selector-class,
+  &-selector-id,
+  &-string,
+  &-template-tag,
+  &-type {
+    color: #cc773b;
+  }
+
+  &-section,
+  &-title {
+    color: tomato;
+  }
+
+  &-link,
+  &-operator,
+  &-regexp,
+  &-selector-attr,
+  &-selector-pseudo,
+  &-symbol,
+  &-template-variable,
+  &-variable {
+    color: whitesmoke;
+  }
+
+  &-literal {
+    color: #78a960;
+  }
+
+  &-addition,
+  &-built_in,
+  &-bullet,
+  &-code {
+    color: #60be01;
+  }
+
+  &-meta {
+    color: #2facf5;
+  }
+
+  &-meta &-string {
+    color: #359cca;
+  }
+
+  &-emphasis {
+    font-style: italic;
+  }
+}

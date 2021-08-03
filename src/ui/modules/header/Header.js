@@ -3,7 +3,7 @@ import './Headerbar.scss'
 import ModularKitLogo from "../logo/ModularKitLogo";
 import GithubBtn from "../gui/buttons/GithubBtn";
 
-const HeaderBar = () => {
+const Header = () => {
     return (
         <header className="main-header">
                 <ModularKitLogo />
@@ -12,4 +12,4 @@ const HeaderBar = () => {
     );
 };
 
-export default HeaderBar;
+export default Header;

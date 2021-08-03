@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './ui/main/main.scss'
-import HeaderBar from "./ui/modules/headerbar/HeaderBar";
+import Header from "./ui/modules/header/Header";
 
 ReactDOM.render(
     <React.StrictMode>
-        <HeaderBar/>
+        <Header/>
     </React.StrictMode>,
     document.getElementById('root')
 );

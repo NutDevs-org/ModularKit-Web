@@ -1,0 +1,39 @@
+@import "src/ui/main/colors";
+
+:root {
+  --site-width: clamp(280px, 90%, 1420px);
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+
+  &-container {
+    width: 100%;
+    min-height: 100vh;
+    background: $bg-400;
+  }
+}
+
+.md-head-info {
+  background: $bg-500;
+  padding: 20px;
+}
+
+.footer-about {
+  flex: 2;
+  text-align: end;
+  white-space: nowrap;
+}
+
+@media (min-width: 480px) {
+  body {
+    background: $bg-700;
+    grid-gap: 25px;
+  }
+
+  .main-content-container {
+    animation: slideUp 1s ease-in-out;
+    width: var(--site-width);
+  }
+}

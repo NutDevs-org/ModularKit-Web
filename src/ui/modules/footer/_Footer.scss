@@ -1,6 +1,5 @@
 @import "src/ui/main/colors";
 
-.main-header,
 .main-footer {
   background-color: $shared-grey170;
   display: flex;
@@ -19,7 +18,7 @@
 
   p {
     margin: 0;
-    padding: 0 5px;
+    padding: 10px 5px;
     font-size: 1em;
     font-family: "Fira Sans Extra Condensed", sans-serif;
   }

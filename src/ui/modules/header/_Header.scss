@@ -1,0 +1,31 @@
+@import "src/ui/main/colors";
+
+@keyframes Spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.main-header {
+  background-color: $shared-grey170;
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    animation: Spin 1s ease-in-out forwards;
+  }
+
+  flex-flow: row wrap;
+  align-items: center;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  /*.width: var(--site-width); */
+  padding: 10px 20px;
+
+
+  p {
+    margin: 0;
+    padding: 0 5px;
+    font-size: 1em;
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+  }
+}

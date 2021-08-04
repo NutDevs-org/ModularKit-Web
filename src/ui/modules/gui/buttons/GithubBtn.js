@@ -1,7 +1,7 @@
 import React from 'react';
 import './GithubBtn.scss';
 
-const GIthubBtn = () => {
+const GithubBtn = () => {
     return (
         <a className="sonikalize-proj-btn" href="https://repo.sunproject.xyz/NutDevs.org/ModularKit"
            target="_blank" rel="noreferrer">
@@ -10,4 +10,4 @@ const GIthubBtn = () => {
     );
 };
 
-export default GIthubBtn;
+export default GithubBtn;

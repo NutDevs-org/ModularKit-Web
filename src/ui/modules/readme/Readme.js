@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react';
 import hljs from "highlight.js";
 import marked from 'marked';
 import './_hljs.scss';
 
-const Readme = (callback) => {
+const Readme = () => {
     fetch(
         "https://raw.githubusercontent.com/NutDevs-org/ModularKit/main/README.md"
     ).then(

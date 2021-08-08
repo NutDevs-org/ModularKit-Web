@@ -33,9 +33,9 @@ body {
   flex-direction: column;
   justify-content: space-between;
   font-family: "Fira Sans", sans-serif;
+  background: $bg-main;
 
-  @media(min-width: 480px) {
-    background: $bg-700;
+  @media(min-width: 680px) {
     grid-gap: 25px;
   }
 }

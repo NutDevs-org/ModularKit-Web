@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './_Main.scss';
 import Readme from "../readme/Readme";
+import {FileCodeIcon} from "@fluentui/react-icons-mdl2";
 
 const Main = () => {
     const setLoaded = useState(false);
@@ -15,7 +16,7 @@ const Main = () => {
         <main class="main-content">
             <div class="main-content-container">
                 <header class="md-head-info">
-                    <i class="fab fa-readme"/>
+                    <FileCodeIcon />
                     <a class="file-name" title="View it on Sonikalize"
                        href="https://repo.sunproject.xyz/NutDevs.org/ModularKit/src/branch/main/README.md"
                        target="_blank" rel="noreferrer" >README.md</a>

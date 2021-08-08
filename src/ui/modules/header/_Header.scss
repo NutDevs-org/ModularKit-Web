@@ -11,10 +11,6 @@
   display: flex;
   justify-content: space-between;
 
-  img {
-    animation: Spin 1s ease-in-out forwards;
-  }
-
   flex-flow: row wrap;
   align-items: center;
   font-family: "Fira Sans Extra Condensed", sans-serif;

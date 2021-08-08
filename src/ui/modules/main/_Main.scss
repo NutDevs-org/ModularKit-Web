@@ -11,12 +11,18 @@
   &-container {
     width: 100%;
     min-height: 100vh;
-    background: $bg-400;
+    background: $bg-grey160;
+    overflow: hidden;
+
+    @media(min-width: 680px) {
+      grid-gap: 25px;
+      border-radius: 10px;
+    }
   }
 }
 
 .md-head-info {
-  background: $bg-500;
+  background: $bg-content;
   padding: 20px;
 }
 
@@ -31,9 +37,8 @@
   white-space: nowrap;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 680px) {
   .main-content-container {
-    animation: slideUp 1s ease-in-out;
     width: var(--site-width);
   }
 }

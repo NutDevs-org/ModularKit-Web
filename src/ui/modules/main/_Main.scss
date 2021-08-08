@@ -22,6 +22,8 @@
 }
 
 .md-head-info {
+  display: flex;
+  justify-content: start;
   background: $bg-content;
   padding: 20px;
 }

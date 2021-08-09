@@ -1,10 +1,5 @@
 @import "src/ui/main/colors";
 
-@keyframes Spin {
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 .main-header {
   background-color: $shared-grey170;
@@ -14,7 +9,6 @@
   flex-flow: row wrap;
   align-items: center;
   font-family: "Fira Sans Extra Condensed", sans-serif;
-  /*.width: var(--site-width); */
   padding: 1em 2em;
 
 

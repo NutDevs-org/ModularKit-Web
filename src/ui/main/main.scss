@@ -49,13 +49,14 @@ h1 {
 a {
   color: inherit;
   text-decoration: none;
+  transition: color, .2s ease-in-out;
 
   &:not(.sonikalize-proj-btn) {
     text-decoration: underline dotted;
 
     &:hover {
       text-decoration: underline;
-      transition: underline 0.3s ease-in-out;
+      color: $text-selected;
     }
   }
 }

@@ -11,7 +11,6 @@ import './_hljs.scss'
     };
 
 
-
     const FileViewer = (props) => {
         let filename = props.fileurl.substr(props.fileurl.lastIndexOf("/") + 1);
 
@@ -38,7 +37,6 @@ import './_hljs.scss'
             </main>
         );
     }
-
 
 
 export default FileViewer;

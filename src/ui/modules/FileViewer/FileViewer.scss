@@ -1,4 +1,4 @@
-@import "src/ui/main/colors";
+@import "../../main/colors";
 
 :root {
   --site-width: clamp(280px, 90%, 1420px);
@@ -23,7 +23,7 @@
 
 .md-head-info {
   display: flex;
-  justify-content: start;
+  align-items: center;
   background: $bg-content;
   font-family: "Fira Sans Extra Condensed", sans-serif;
   padding: 20px;
@@ -34,11 +34,6 @@
   overflow: hidden;
 }
 
-.footer-about {
-  flex: 2;
-  text-align: end;
-  white-space: nowrap;
-}
 
 @media (min-width: 680px) {
   .main-content-container {

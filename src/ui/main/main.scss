@@ -1,8 +1,8 @@
 @import '_colors.scss';
 
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  width: 1em;
+  height: 1em;
 
   &-track {
     background: $bg-main;
@@ -10,7 +10,7 @@
 
   &-thumb {
     background: $bg-content;
-    border-radius: 10px;
+    border-radius: 1em;
   }
 }
 
@@ -36,7 +36,7 @@ body {
   background: $bg-main;
 
   @media(min-width: 680px) {
-    grid-gap: 25px;
+    grid-gap: 3em;
   }
 }
 

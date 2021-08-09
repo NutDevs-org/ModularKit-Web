@@ -4,10 +4,10 @@ import './_Footer.scss';
 const Footer = () => {
     return (
         <footer className="main-footer">
-            <a className="titlemain-logo" href="https://www.sunproject.xyz/">
+            <a className="titlemain-logo" href="https://www.nutdevs.org/">
                 <img className="sunproj-logo" src="/logo192.png" height="48px"
                      width="48px"
-                     alt="SunProject.xyz Logo"/>
+                     alt="NutDevs.org Logo"/>
                 <p>NutDevs.org</p>
             </a>
 

@@ -1,4 +1,4 @@
-import React, {Component, useEffect} from 'react';
+import React, {useEffect} from 'react';
 import {FileCodeIcon} from "@fluentui/react-icons-mdl2";
 import "./FileViewer.scss"
 import marked from "marked";
@@ -21,6 +21,7 @@ import './_hljs.scss'
                     document.querySelector(".file-content").innerHTML = marked(res);
                     hljs.highlightAll();
                 })
+                .catch((err) => document.querySelector(".file-content").innerHTML = "<h1>Unable to fetch the file :/</h1>");
         })
 
         return (

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.scss';
+import projManifest from '../../../../package.json';
 
 const Footer = () => {
     return (
@@ -11,7 +12,10 @@ const Footer = () => {
                 <p>NutDevs.org</p>
             </a>
 
-            <p className="footer-about">© 2021 NutDevs.org - All right reserved.</p>
+            <div className="projAbout">
+                <p>© 2021 NutDevs.org - All right reserved.</p>
+                <p className="buildinfo">{projManifest.name}<span>@</span>{projManifest.version}</p>
+            </div>
         </footer>
     );
 };

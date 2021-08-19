@@ -14,7 +14,7 @@ const Footer = () => {
 
             <div className="projAbout">
                 <p>© 2021 NutDevs.org - All right reserved.</p>
-                <p className="buildinfo">{projManifest.name}<span>@</span>{projManifest.version}</p>
+                <a href={projManifest.repository} rel="noreferrer" target="_blank" className="buildinfo">{projManifest.name}<span>@</span>{projManifest.version}</a>
             </div>
         </footer>
     );

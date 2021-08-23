@@ -14,7 +14,7 @@
     background: $bg-grey160;
     overflow: hidden;
 
-    @media(min-width: 680px) {
+    @media (min-width: 680px) {
       grid-gap: 25px;
       border-radius: 10px;
     }
@@ -27,14 +27,13 @@
   background: $bg-content;
   font-family: "Fira Sans Extra Condensed", sans-serif;
   padding: 2em;
-  gap: .3em;
+  gap: 0.3em;
 }
 
 .file-content {
   padding: 2em;
   overflow: hidden;
 }
-
 
 @media (min-width: 680px) {
   .main-content-container {

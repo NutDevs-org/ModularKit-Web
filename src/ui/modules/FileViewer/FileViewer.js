@@ -21,7 +21,7 @@ const FileViewer = (props) => {
                 hljs.highlightAll();
             })
             .catch(() => document.querySelector(".file-content").innerHTML = "<h1>Unable to fetch the file :/</h1>");
-    })
+    });
 
     return (
         <main className="main-content">

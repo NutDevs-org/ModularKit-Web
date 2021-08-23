@@ -10,7 +10,7 @@ import FileViewer from "./ui/modules/FileViewer/FileViewer";
 const gitBaseUrl = "https://github.com/NutDevs-org";
 const projName = "ModularKit";
 const gitProjUrl = `${gitBaseUrl}/${projName}`;
-export {gitBaseUrl, projName, gitProjUrl}
+export {gitBaseUrl, projName, gitProjUrl};
 
 initializeIcons();
 
@@ -20,7 +20,7 @@ ReactDOM.render(
         <FileViewer fileurl={`${gitProjUrl}/README.md`}/>
         <Footer/>
     </React.StrictMode>,
-    document.getElementById('root')
+    document.getElementById("root")
 );
 
 

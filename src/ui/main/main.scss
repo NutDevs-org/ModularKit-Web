@@ -34,7 +34,7 @@ body {
   font-family: "Fira Sans", sans-serif;
   background: $bg-main;
 
-  @media(min-width: 680px) {
+  @media (min-width: 680px) {
     grid-gap: 3em;
   }
 }

@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.svg'
-import './ModularKitLogo.scss'
+import React from "react";
+import logo from "./logo.svg";
+import "./ModularKitLogo.scss";
 
 const ModularKitLogo = () => {
     return (

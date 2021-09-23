@@ -31,12 +31,12 @@ code.hljs {
   font-family: "Fira Code", monospace;
 
   &-comment {
-    color: #93a1a1;
+    color: #e2e2e2;
   }
 
   &-punctuation,
   &-tag {
-    color: #444a;
+    color: rgba(145, 145, 145, 0.667);
   }
 
   &-attribute,
@@ -45,12 +45,15 @@ code.hljs {
   &-meta &-keyword,
   &-name,
   &-selector-tag {
-    color: #54a700;
+    color: #00e01e;
+    font-weight: bold;
+
   }
 
   &-tag &-attr,
   &-tag &-name {
-    color: #444;
+    color: #00e01e;
+    font-weight: bold;
   }
 
   &-deletion,
@@ -89,6 +92,7 @@ code.hljs {
   &-bullet,
   &-code {
     color: #60be01;
+    font-weight: bold;
   }
 
   &-meta {

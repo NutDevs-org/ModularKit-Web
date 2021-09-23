@@ -1,6 +1,6 @@
 {
   "name": "org.nutdevs.modularkit.web",
-  "version": "1.1.4",
+  "version": "1.1.6",
   "repository": "https://github.com/NutDevs-org/ModularKit-Web",
   "private": true,
   "dependencies": {
@@ -15,8 +15,7 @@
     "package-lock.json": "^1.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "react-scripts": "4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",

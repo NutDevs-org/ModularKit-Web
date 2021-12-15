@@ -26,12 +26,6 @@ const FileViewer = (props) => {
     return (
         <main className="main-content">
             <div className="main-content-container">
-                <header className="md-head-info">
-                    <FileCodeIcon/>
-                    <a className="file-name" title="View it on Github"
-                       href={props.fileurl}
-                       target="_blank" rel="noreferrer">{filename}</a>
-                </header>
                 <div className="file-content"/>
             </div>
         </main>

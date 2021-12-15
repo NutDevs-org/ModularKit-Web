@@ -13,11 +13,6 @@
     min-height: 100vh;
     background: $bg-grey160;
     overflow: hidden;
-
-    @media (min-width: 680px) {
-      grid-gap: 25px;
-      border-radius: 10px;
-    }
   }
 }
 
@@ -33,10 +28,4 @@
 .file-content {
   padding: 2em;
   overflow: hidden;
-}
-
-@media (min-width: 680px) {
-  .main-content-container {
-    width: var(--site-width);
-  }
 }

@@ -1,5 +1,4 @@
 import React, {useEffect} from "react";
-import {FileCodeIcon} from "@fluentui/react-icons-mdl2";
 import "./FileViewer.scss";
 import marked from "marked";
 import hljs from "highlight.js";
@@ -12,8 +11,6 @@ let fileFetcher = (url) => {
 
 
 const FileViewer = (props) => {
-    let filename = props.fileurl.substr(props.fileurl.lastIndexOf("/") + 1);
-
     useEffect(() => {
         fileFetcher("https://raw.githubusercontent.com/NutDevs-org/ModularKit/main/README.md")
             .then((res) => {

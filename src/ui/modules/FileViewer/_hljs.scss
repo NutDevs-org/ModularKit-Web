@@ -7,8 +7,13 @@ code.hljs {
   font-weight: 500;
   display: inline-block;
   background-color: $code-bg;
-  width: clamp(55%, 1200px, calc(100% - 50px));
+  width: 500px;
+  transition: width 0.2s ease-in-out;
   overflow-x: auto;
+
+  @media screen and (max-width: 800px) {
+    width: clamp(55%, 1200px, calc(100% - 30px));;
+  }
 
   &::-webkit-scrollbar {
     width: 10px;

@@ -1,6 +1,6 @@
 {
   "name": "org.nutdevs.modularkit.web",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "repository": "https://github.com/NutDevs-org/ModularKit-Web",
   "private": true,
   "dependencies": {
@@ -10,10 +10,10 @@
     "@testing-library/user-event": "^12.8.3",
     "highlight.js": "^11.1.0",
     "marked": "^2.1.3",
-    "node-sass": "^6.0.1",
+    "node-sass": "^7.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3"
+    "react-scripts": "5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

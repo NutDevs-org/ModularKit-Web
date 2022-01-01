@@ -16,7 +16,7 @@ const Footer = () => {
         }}
       >
         <img
-          src="/logo192.png"
+          src="https://raw.githubusercontent.com/NutDevs-org/Stuff/master/SunIcons/NutDevs.org-Logo_x1.png"
           height="48px"
           width="48px"
           alt="NutDevs.org Logo"

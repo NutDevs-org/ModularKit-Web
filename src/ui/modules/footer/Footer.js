@@ -22,7 +22,7 @@ const Footer = () => {
       </a>
 
       <div className="projAbout">
-        <p>© 2021 NutDevs.org - All rights reserved.</p>
+        <p>© {new Date().getFullYear()} NutDevs.org - All rights reserved.</p>
         <a
           href={projManifest.repository}
           rel="noreferrer"

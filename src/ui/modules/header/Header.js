@@ -1,16 +1,22 @@
 import React from "react";
-import "./_Header.scss";
+import "./Header.scss";
 import ModularKitLogo from "../logo/ModularKitLogo";
-import {PrimaryButton} from "@fluentui/react";
+import { PrimaryButton } from "@fluentui/react";
 
 const Header = () => {
-    return (
-        <header className="main-header">
-            <ModularKitLogo/>
-            <PrimaryButton text={"View On Github !"}
-                           onClick={() => window.open("https://github.com/NutDevs-org/ModularKit", "_blank")}/>
-        </header>
-    );
+  return (
+    <header className="main-header">
+      <ModularKitLogo />
+      <a
+        href="https://github.com/NutDevs-org/ModularKit"
+        rel="noreferrer"
+        target="_blank"
+        title="See on Github ..."
+      >
+        <PrimaryButton text={"View On Github !"} />
+      </a>
+    </header>
+  );
 };
 
 export default Header;

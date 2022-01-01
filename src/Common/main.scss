@@ -1,0 +1,53 @@
+@import './Theme/Default/theme.scss';
+
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+
+  &-track {
+    background: $bg-main;
+  }
+
+  &-thumb {
+    background: $bg-content;
+    border-radius: 1em;
+  }
+} 
+
+::selection {
+  background: $text-selected;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  box-sizing: border-box;
+  font-size: clamp(12px, 3vw, 16px);
+  color: $text-400;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Fira Sans", sans-serif;
+  background: $bg-main;
+}
+
+h1 {
+  letter-spacing: 2px;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 900;
+}
+
+a {
+  color: inherit;
+  transition: color, 0.1s ease-in-out;
+  text-decoration: underline dotted;
+
+  &:hover {
+    text-decoration: underline;
+    color: $text-selected;
+  }
+}

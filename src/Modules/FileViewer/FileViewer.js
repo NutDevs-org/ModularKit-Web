@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import "./FileViewer.scss";
-import marked from "marked";
+import { marked } from "marked";
 import hljs from "highlight.js";
 import "./_hljs.scss";
 
@@ -14,7 +14,7 @@ const FileViewer = (props) => {
     useEffect(() => {
         fileFetcher("https://raw.githubusercontent.com/NutDevs-org/ModularKit/main/README.md")
             .then((res) => {
-                document.querySelector(".file-content").innerHTML = marked(res);
+                document.querySelector(".file-content").innerHTML = marked.parse(res);
                 hljs.highlightAll();
             })
             .catch(() => document.querySelector(".file-content").innerHTML = "<h1>Unable to fetch the file :/</h1>");

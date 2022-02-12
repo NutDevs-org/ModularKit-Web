@@ -1,20 +1,22 @@
 {
   "name": "modularkit-web",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "repository": "https://github.com/NutDevs-org/ModularKit-Web",
   "private": true,
   "dependencies": {
-    "@fluentui/react": "^8.26.2",
-    "highlight.js": "^11.1.0",
-    "marked": "^4.0.10",
-    "node-sass": "^7.0.0",
+    "@fluentui/react": "^8.55.1",
+    "highlight.js": "^11.4.0",
+    "marked": "^4.0.12",
+    "node-sass": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "rm -rf build/ && react-scripts build",
+    "gh-pages": "node scripts/gh-pages.js",
+    "deploy": "build && deploy",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

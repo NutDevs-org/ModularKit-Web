@@ -1,8 +1,8 @@
 {
   "name": "modularkit-web",
   "version": "1.4.1",
-  "repository": "https://github.com/NutDevs-org/ModularKit-Web",
-  "homepage": "https://modularkit.nutdevs.org",
+  "repository": "https://github.com/NukaWorks/ModularKit-Web",
+  "homepage": "https://modularkit.nuka.works",
   "private": true,
   "dependencies": {
     "@fluentui/react": "^8.55.1",

@@ -1,3 +1,3 @@
-const ghpages = require('gh-pages');
+const ghpages = require("gh-pages");
 
-ghpages.publish("build", () => console.log("Gh-Pages task success !"));
+ghpages.publish("dist", () => console.log("Gh-Pages task success !"));

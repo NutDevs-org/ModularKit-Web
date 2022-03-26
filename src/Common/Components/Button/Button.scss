@@ -1,0 +1,31 @@
+@import "../../main.scss";
+
+.cmpns-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none !important;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+  user-select: none;
+  cursor: pointer;
+  background-color: $text-selected;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #0475d8;
+  }
+}
+
+.btn-viewlink {
+
+  & a {
+    text-decoration: none;
+    transition: none;
+
+    &:hover {
+      color: inherit;
+    }
+  }
+}

@@ -1,13 +1,14 @@
 import React from "react";
 import "./Footer.scss";
 import projManifest from "../../../package.json";
+import logo from "./logo.png";
 
 const Footer = () => {
   return (
     <footer className="main-footer">
       <a
         className="sunproj-logo"
-        href="https://www.nutdevs.org/"
+        href="https://nuka.works/"
         rel="noreferrer"
         target="_blank"
         style={{
@@ -16,16 +17,16 @@ const Footer = () => {
         }}
       >
         <img
-          src="https://raw.githubusercontent.com/NutDevs-org/Stuff/master/SunIcons/NutDevs.org-Logo_x1.png"
-          height="48px"
-          width="48px"
-          alt="NutDevs.org Logo"
+          src={logo}
+          height="40px"
+          width="40px"
+          alt="NukaWorks Logo"
         />
-        <p>NutDevs.org</p>
+        <p>NukaWorks</p>
       </a>
 
       <div className="projAbout">
-        <p>© {new Date().getFullYear()} NutDevs.org - All rights reserved.</p>
+        <p>© {new Date().getFullYear()} NukaWorks - All rights reserved.</p>
         <a
           href={projManifest.repository}
           rel="noreferrer"

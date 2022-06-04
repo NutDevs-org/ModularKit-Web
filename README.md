@@ -1,5 +1,5 @@
-![Lines of code](https://img.shields.io/tokei/lines/github/NutDevs-org/ModularKit-Web?label=Total%20Lines%20Of%20Codes%20%3A)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/NutDevs-org/ModularKit-Web)
+![Lines of code](https://img.shields.io/tokei/lines/github/NukaWorks/ModularKit-Web?label=Total%20Lines%20Of%20Codes%20%3A)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/NukaWorks/ModularKit-Web)
 
 ## ⚠️ The main branch is stable, for development, go on the devel branch.
 

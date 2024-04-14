@@ -1,9 +1,9 @@
 {
   "name": "modularkit-web",
-  "version": "1.6.0",
-  "description": "(Old documentation) ModularKit Docs Website",
+  "version": "1.6.1",
+  "description": "ModularKit Docs Website",
   "repository": "https://github.com/NukaWorks/ModularKit-Web",
-  "homepage": "https://old.modularkit.nuka.works",
+  "homepage": "https://modularkit.nuka.works",
   "private": true,
   "dependencies": {
     "highlight.js": "^11.4.0",
